@@ -234,7 +234,7 @@ public class SpiritsOfTheElid extends BasicQuestHelper
 			"Cast the Telekinetic Grab spell on the ancestral key on the table.", normalBook, airRune, lawRune);
 
 		//The Golems
-		enterCave = new ObjectStep(this, ObjectID.DESERT_WATER_CAVE_ROOT, new WorldPoint(3370, 3132, 0), "Use the rope on the root to enter the cave north-west of Nardah where the river turns into a waterfall.", rope);
+		enterCave = new ObjectStep(this, ObjectID.DESERT_WATER_CAVE_ROOT, new WorldPoint(3370, 3132, 0), "Use the rope on the root to enter the cave north-west of Uzer where the river turns into a waterfall.", rope);
 		enterCave.addIcon(ItemID.ROPE);
 		useAncestralKey = new ObjectStep(this, ObjectID.ELID_UNDERGROUND_ROBE_DOOR, new WorldPoint(3353, 9544, 0), "Equip the Robes of " +
 			"Elidinis and use the ancestral key on the door.", ancestralKey, robeOfElidinisTopEquipped,
